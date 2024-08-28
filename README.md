@@ -19,13 +19,13 @@ The code in this repository developed for
 - Execute programs
 
     To train the DNABERT-CRISPR model, you should execute (if fold 1 and regression)
-    ``` python
+    ``` bash
     python3 script/finetuning/dnabert_pair_ft.py
     python3 script/dnabert/dnabert_ot_ft.py --fold 1 --task regr
     ```
 
     To test the DNABERT-CRIPSR model, you should execute (if fold 1 and regression)
-    ``` python
+    ``` bash
     python3 script/dnabert/ot_ft_test.py --fold 1 --task regr
     ```
 
@@ -54,13 +54,13 @@ August 28 2024
 - プログラム実行方法
 
     DNABERT-CRISPRモデルを訓練するには、以下を実行してください。（第1交差目で回帰の場合）
-    ``` python
+    ``` bash
     python3 script/finetuning/dnabert_pair_ft.py
     python3 script/dnabert/dnabert_ot_ft.py --fold 1 --task regr
     ```
 
     DNABERT-CRISPRモデルをテストする場合には、以下を実行してください。（第1交差目で回帰の場合）
-    ``` python
+    ``` bash
     python3 script/dnabert/ot_ft_test.py --fold 1 --task regr
     ```
 
